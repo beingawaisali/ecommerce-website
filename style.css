@@ -217,6 +217,10 @@ i{
     /* grid-row-gap: 0.3em; */
 }
 
+.product-image{
+    height: 290px;
+}
+
 .product-name span{
     font-size: 0.8em;
     color: grey;
