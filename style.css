@@ -18,6 +18,9 @@ i{
     outline: none;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
 
 
 
@@ -80,11 +83,14 @@ i{
 }
 #search-bar button{
     width: 80px;
-    height: 43px;
+    height: 42px;
     font-size: 0.8em;
-    background-color: #e24f06;
+    background-color: #eb4e01;
     color: white;
     border: none;
+}
+#search-bar button:hover{
+    background-color: #be3f00;
 }
 
 #cart{
@@ -194,9 +200,10 @@ i{
     border: none;
     font-size: 16px;
     padding: 3px 0px;
+    border: 2px solid white;
 }
 #menu-list button:hover{
-    border: 1px solid #CC3333;
+    border: 2px solid #CC3333;
     transition: 500ms;
 }
 
@@ -225,6 +232,7 @@ i{
     grid-gap: 0.3em;
     width: 100%;
     padding: 15px 0px;
+    background-color: white;
 }
 
 /* PRODUCT LIST */
@@ -510,6 +518,13 @@ i{
 }
 
 
+
+
+
+
+
+
+
 /* MEDIA QUERIES FOR HEADER */
 
 
@@ -530,6 +545,14 @@ i{
     display: none;
 }
 }
+
+
+@media only screen and (max-width: 980px) and (min-width: 300px) {
+    .container section{
+        margin: 0px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) and (min-width: 300px) {
     #header-bottom-offers button:nth-child(6){
