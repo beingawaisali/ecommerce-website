@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="product-page.css">
     <script src="script.js"></script>
     <title>Product Page</title>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+        
+        $("#imgGl-1").click(function(){
+        $("#img-2, #img-3").hide();
+        $("#img-1").show();
+        });
+        
+        
+        $("#imgGl-2").click(function(){
+        $("#img-1, #img-3").hide();
+        $("#img-2").show();
+        });
+        
+        $("#imgGl-3").click(function(){
+        $("#img-1, #img-2").hide();
+        $("#img-3").show();
+        });
+        
+        
+        });
+        
+        </script>
 </head>
 
 <body>
@@ -139,17 +164,19 @@
         <div id="product-image-div">
 
             <div id="main-prd-image">
-                <img src="images/product-3-1.jpg">
+                <img src="images/product-3-1.jpg" id="img-1">
+                <img src="images/product-3-2.jpg" id="img-2">
+                <img src="images/product-3-3.jpg" id="img-3">
             </div>
             <div id="prd-slide">
                 <div id="silde-1">
-                    <img src="images/product-3-1.jpg" alt="">
+                    <img src="images/product-3-1.jpg" alt="" id="imgGl-1">
                 </div>
                 <div id="silde-2">
-                    <img src="images/product-3-2.jpg" alt="">
+                    <img src="images/product-3-2.jpg" alt="" id="imgGl-2">
                 </div>
                 <div id="silde-3">
-                    <img src="images/product-3-3.jpg" alt="">
+                    <img src="images/product-3-3.jpg" alt="" id="imgGl-3">
                 </div>
             </div>
         </div>

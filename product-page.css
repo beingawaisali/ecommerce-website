@@ -212,7 +212,9 @@ body{
 
 
 
-
+#img-2, #img-3{
+    display: none;
+}
 
 
 
