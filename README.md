@@ -2,14 +2,14 @@
 
 # Home Page
 
-https://awais-malik716.github.io/awok.com-clone/
+https://awais-malik716.github.io/E-commerce-website/
 
 # Categories Page
 
-https://awais-malik716.github.io/awok.com-clone/categories-page.html
+https://awais-malik716.github.io/E-commerce-website//categories-page.html
 
 # Product Page
 
-https://awais-malik716.github.io/awok.com-clone/product-page.html
+https://awais-malik716.github.io/E-commerce-website//product-page.html
 
 Completed
