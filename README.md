@@ -2,14 +2,12 @@
 
 # Home Page
 
-https://awais-malik716.github.io/E-commerce-website/
+https://beingawaisali.github.io/ecommerce-website/
 
 # Categories Page
 
-https://awais-malik716.github.io/E-commerce-website//categories-page.html
+https://beingawaisali.github.io/ecommerce-website/categories-page.html
 
 # Product Page
 
-https://awais-malik716.github.io/E-commerce-website//product-page.html
-
-Completed
+https://beingawaisali.github.io/ecommerce-website/product-page.html
